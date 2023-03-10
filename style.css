@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.card {
+    width: 350px;
+    height: 450px;
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    position: absolute;
+  }
+
+  .img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+  }
+
+ .icone  {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 350px;
+    height: 450px;
+ }
+
+ .card:hover .icone{
+    display: block;
+    transition: 3s;
+    
+ }
+
+.card:hover .save {
+    
+    
+}
+
+  .save{
+    background-color: red;
+    color: white;
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 40px;
+    right: 20px;
+    top: 3px;
+  }
+
+  .info {
+    position: absolute;
+    background-color: whitesmoke;
+    height: 40px;
+    width: 160px;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 40px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    bottom: 5px;
+    left: 10px; 
+    padding: 0.10px;
+  }
+
+  .download {
+    position: absolute;
+    background-color: whitesmoke;
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 40px;
+    bottom: 5px;
+    right: 80px;
+    z-index: 3;
+  }
+
+  .option {
+    position: absolute;
+    background-color: whitesmoke;
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 40px;
+    bottom: 5px;
+    right: 30px;
+  }
+
+
+
+  
